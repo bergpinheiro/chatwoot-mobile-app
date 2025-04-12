@@ -74,6 +74,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     },
     owner: 'bergpinheiro',
     plugins: [
+      require.resolve('./withFirebaseGoogleServices'),
       'expo-font',
       [
         'react-native-permissions',

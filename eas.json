@@ -5,6 +5,9 @@
   },
   "build": {
     "development": {
+      "cache": {
+            "disabled": true
+          },
       "developmentClient": true,
       "distribution": "internal"
     },
